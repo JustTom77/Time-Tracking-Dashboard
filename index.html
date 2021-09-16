@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- Profile Section -->
+      <div class="grid-item report">
+        <div class="report-content">
+          <div class="profile">
+            <img src="/images/image-jeremy.png" alt="" />
+            <div>
+              <p>Report for</p>
+              <h1>Jeremy Robson</h1>
+            </div>
+          </div>
+          <div class="time-period">
+            <p class="timeframes" id="daily">Daily</p>
+            <p class="timeframes" id="weekly">Weekly</p>
+            <p class="timeframes" id="monthly">Monthly</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Time Overview Section -->
+
+      <div class="grid-item work">
+        <div class="work-time">
+          <div class="category">
+            <p>Work</p>
+            <img src="./images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="time-information">
+            <h1 id="work-current"></h1>
+            <p id="work-previous"></p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item play">
+        <div class="work-time">
+          <div class="category">
+            <p>Play</p>
+            <img src="./images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="time-information">
+            <h1 id="play-current"></h1>
+            <p id="play-previous"></p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item study">
+        <div class="work-time">
+          <div class="category">
+            <p>Study</p>
+            <img src="./images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="time-information">
+            <h1 id="study-current"></h1>
+            <p id="study-previous"></p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item exercise">
+        <div class="work-time">
+          <div class="category">
+            <p>Exercise</p>
+            <img src="./images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="time-information">
+            <h1 id="exercise-current"></h1>
+            <p id="exercise-previous"></p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item social">
+        <div class="work-time">
+          <div class="category">
+            <p>social</p>
+            <img src="./images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="time-information">
+            <h1 id="social-current"></h1>
+            <p id="social-previous"></p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item self-care">
+        <div class="work-time">
+          <div class="category">
+            <p>Self Care</p>
+            <img src="./images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="time-information">
+            <h1 id="self-care-current"></h1>
+            <p id="self-care-previous"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="data.json"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
